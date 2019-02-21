@@ -1,8 +1,12 @@
-// import http from '@/http'
 import axiosPro from 'axios-pro'
-import mappers from '@/http/mappers'
+
+import loginApi from './api/login'
+import sealApi from './api/seal'
 
 export default Vue => {
+  console.log('axiosPro: ', axiosPro)
+  const mappers = axiosPro.combine(loginApi, sealApi)
+  // console.log('mappers: ', mappers)
   Vue.prototype.$BASE_URL = process.env.BASE_URL
   Vue.use(axiosPro, {
     mappers,
