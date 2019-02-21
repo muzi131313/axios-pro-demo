@@ -1,8 +1,7 @@
-# vue-cli3-template
+# axios-pro used demo
 
-### TODO List
-- [×] router history not finished
-- [×] 待定
+- install plugin's code was [here](./src/init.js)
+- use plugin's code was [here](./src/App.vue)
 
 ## Project setup
 ```
@@ -34,5 +33,5 @@ npm run lint
 npm run test:unit
 ```
 
-#### 参考资料
+#### material link
 - [eslintignore](https://eslint.org/docs/user-guide/configuring#ignoring-files-and-directories)
