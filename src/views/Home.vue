@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     This is home page!
+    <i class="logo"></i>
   </div>
 </template>
 
@@ -14,3 +15,13 @@ export default {
   name: 'home'
 }
 </script>
+<style lang="scss" scoped>
+.logo {
+  display: block;
+  height: 100px;
+  width: 100px;
+  background: url(@/../../assets/logo.png) center center no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+</style>
