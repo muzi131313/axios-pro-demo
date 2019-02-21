@@ -5,6 +5,11 @@
 </template>
 
 <script>
+/**
+ * @file Home.vue
+ * @description index page
+ * @createTime 2019年02月21日14:43:47
+ */
 export default {
   name: 'home'
 }
