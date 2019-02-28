@@ -1,11 +1,11 @@
 import axiosPro from 'axios-pro'
 
-import login from '@/api/modules/login'
-import seal from '@/api/modules/seal'
+import org from '@/api/modules/org'
+import user from '@/api/modules/user'
 
 const mappers = axiosPro.combine(
-  login,
-  seal
+  org,
+  user
 )
 
 const config = {
