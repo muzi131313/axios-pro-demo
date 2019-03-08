@@ -17,6 +17,9 @@ const config = {
       const code = data.code
       console.log('errorInfo: ', code)
     },
+    config(config) {
+      console.log('config: ', config)
+    },
     error (errorInfo) {
       console.log('errorInfo: ', errorInfo)
     }
