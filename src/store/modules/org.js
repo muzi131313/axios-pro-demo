@@ -26,6 +26,12 @@ export default {
             }
           ]
         }
+      }, {
+        handlers: {
+          data(data = {}) {
+            console.log('data: ', data)
+          }
+        }
       })
       commit('SET_ORGS', resp.content)
     }
