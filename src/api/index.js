@@ -9,6 +9,7 @@ const mappers = axiosPro.combine(
 )
 
 const config = {
+  timeout: 60e3,
   handlers: {
     timeout (msg) {
       console.log('timeout: ', msg)
