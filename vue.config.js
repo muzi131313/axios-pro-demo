@@ -3,7 +3,7 @@ const path = require('path')
 
 module.exports = {
   // 部署应用的基本URL, 相当于webpack的output.publicPath
-  baseUrl: isProd ? '/' : '/',
+  publicPath: isProd ? '/' : '/',
 
   // 输出路径, 相当于webpack的output.path
   outputDir: 'dist',
@@ -13,6 +13,9 @@ module.exports = {
 
   // webpack配置, chainWebpack可以替代此处
   configureWebpack: {
+    // output: {
+    //   libraryExport: 'default'
+    // },
     plugins: []
   },
 

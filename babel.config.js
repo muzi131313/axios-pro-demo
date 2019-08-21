@@ -1,4 +1,7 @@
 module.exports = {
+  // Cannot assign to read only property 'exports' of object '#<Object>'
+  // https://github.com/vuejs/vue-cli/issues/2746#issuecomment-517150124
+  sourceType: 'unambiguous',
   // https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/babel-preset-app
   presets: [
     ['@vue/app',
@@ -16,5 +19,8 @@ module.exports = {
         // useBuiltIns: 'entry'
       }
     ]
+  ],
+  plugins: [
+    '@babel/plugin-transform-runtime'
   ]
 }
