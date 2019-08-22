@@ -27,6 +27,7 @@ export default {
           ]
         }
       }, {
+        timeout: 30e3,
         handlers: {
           data(data = {}) {
             console.log('data: ', data)
