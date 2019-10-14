@@ -3,13 +3,13 @@ const seal = {
     queryOrg: 'api/v1/society/seal/site/query/org'
   },
   posts: {
-    saveOrg: '/api/org/save'
+    saveBook: 'api/book/save'
   },
   puts: {
-    updateOrg: '/api/org/update'
+    update: 'api/update/id'
   },
   dels: {
-    delOrg: '/api/org/del'
+    delById: 'api/del/id'
   },
   patches: {
   }

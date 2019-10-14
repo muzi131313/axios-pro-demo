@@ -2,10 +2,14 @@ import axiosPro from 'axios-pro'
 
 import org from '@/api/modules/org'
 import user from '@/api/modules/user'
+import book from '@/api/modules/book'
 
 const mappers = axiosPro.combine(
   org,
-  user
+  user,
+  book
+  // ,others
+  // ,...
 )
 
 const config = {

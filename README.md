@@ -1,7 +1,7 @@
 # axios-pro used demo
 
 - install plugin's code was [here](./src/init.js)
-- use plugin's code was [here](./src/App.vue)
+- use plugin's code was [here](https://github.com/muzi131313/axios-pro-demo/blob/master/src/store/modules/org.js)
 
 ## Project setup
 ```
